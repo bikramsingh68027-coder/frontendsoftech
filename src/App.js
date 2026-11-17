@@ -38,7 +38,7 @@ function App(){
       const takedata = await takeresponse.json();
       setStudent(takedata);
     } catch (error) {
-      console.error("Error fetching data:", error);
+      console.error("Error  hjh fetching data:", error);
     }
   }
 
